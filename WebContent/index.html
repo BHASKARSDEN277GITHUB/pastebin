@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <title>Pastebin</title>
+</head>
+    <div id="wrapper">
+        <div id="outer">
+            <div id="header">
+                <div id="sitename">Pastebin</div>
+                 <ul id="menu">
+                    <li class="menuitem"><a href="#">Archive</a>&nbsp;&nbsp;</li>
+                    <li class="menuitem"><a href="contribute.html">Contribute</a>&nbsp;&nbsp;</li>
+                    <li class="menuitem"><a href="index.html">Home</a>&nbsp;&nbsp;</li>
+                </ul>
+            </div>
+            <div id="content">
+                <form action="submit" method="post" id="frm">
+                    <span >Title </span><input id="iTitle" type="text" name="title" required/>
+                <input type="submit" value="Submit" id="submit" />
+                </form>
+                <textarea id="iContent" form="frm" wrap="off" name="pastedContent">Remove Me and Paste Code !</textarea>
+            </div>
+            <div id="footer">
+                <small>&copy;&nbsp;Bhaskar Kalia</small>
+            </div>
+        </div>
+    </div>
+</html>
