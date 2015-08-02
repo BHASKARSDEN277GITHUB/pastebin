@@ -53,7 +53,10 @@
     <div id="wrapper">
         <div id="outer">
             <div id="header">
-                <div id="sitename">Pastebin</div>
+                <div id="sitename">
+                	<span>Pastebin</span>&nbsp;&nbsp;
+                	<span><img id="logo" src="logo.jpg"></span>
+                </div>
                  <ul id="menu">
                     <li class="menuitem"><a href="#">Archive</a>&nbsp;&nbsp;</li>
                     <li class="menuitem"><a href="contribute.html">Contribute</a>&nbsp;&nbsp;</li>

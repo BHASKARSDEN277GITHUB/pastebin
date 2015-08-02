@@ -49,7 +49,8 @@ public class SubmitPaste extends HttpServlet {
 		// generate url and make entry to database
 		String url="";
 		String param=title+"."+random.toString();
-		url += "http://localhost:8080/Pastebin/show.jsp?id="+param;
+		String ip=new Bundle().getIp();
+		url += "http://"+ip+":8080/Pastebin/show.jsp?id="+param;
 		
 
 		// define path where to save the files on the disk

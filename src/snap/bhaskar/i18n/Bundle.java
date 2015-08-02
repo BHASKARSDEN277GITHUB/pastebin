@@ -15,6 +15,10 @@ public class Bundle {
 		String userName=bun.getString("user");
 		return userName;
 	}
+	public String getIp(){
+		String userName=bun.getString("ip");
+		return userName;
+	}
 	
 	public String getPassword(){
 		String password=bun.getString("password");

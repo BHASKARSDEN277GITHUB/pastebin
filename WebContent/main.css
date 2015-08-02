@@ -131,3 +131,10 @@ ul {
 li :hover {
 	background-color: chocolate;
 }
+
+#logo{
+	position:relative;
+	height:50%;
+	width:10%;
+	border:1px solid black;	
+}
